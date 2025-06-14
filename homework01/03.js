@@ -13,20 +13,16 @@ const canSellAlcohol = (registrationCard) => {
   }
 }
 
-let registrationCard1 = {
+let result1 = canSellAlcohol({
   name : '임시은',
   age : 8,
   gender : 'female',
-}
-
-let registrationCard2 = {
+})
+let result2 = canSellAlcohol({
   name : '채병주',
   age : 28,
   gender : 'male',
-}
-
-let result1 = canSellAlcohol(registrationCard1)
-let result2 = canSellAlcohol(registrationCard2)
+})
 
 console.log(result1)
 console.log(result2)
