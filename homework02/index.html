@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>캐러셀(Carousel) 컴포넌트</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="./images/ecmascript-logo.png" />
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <section class="wrapper__container"> 
+      <header>
+        <h2 id="section-title">
+          <span>추천게임</span>
+        </h2>
+      </header>
+      <section class="carousel__container">
+        <div class="carousel__track">   
+          <div class="carousel__contents active">
+            <div  class="data__container">
+              <div class="game__card">
+                <div class="game__images">
+                  <img class="background__image" src="images/b1.png"/>
+                  <img class="character" src="images/c1.png"/>
+                </div>
+                <p class="title">크로노 오디세이</p>
+                <p class="text-area">멈춰있던시간이 흐른다</p>
+                <p class="category">MMORPG</p>
+              </div>
+              <div class="game__card">
+                <div class="game__images">
+                  <img class="character" src="images/c2.png" />
+                  <img class="background__image" src="images/b2.png"/>
+                </div>
+                <p class="title">아키에이지 워</p>
+                <p class="text-area">시대의 전설을 향해</p>
+                <p class="category">MMORPG</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel__contents">
+            <div  class="data__container">
+              <div class="game__card">
+                <div class="game__images">
+                  <img class="background__image" src="images/b3.png"/>
+                  <img class="character" src="images/c3.png"/>
+                </div>
+                <p class="title">패스 오브 엑자일 2</p>
+                <p class="text-area">얼리 액세스 오픈!</p>
+                <p class="category">핵앤슬래시</p>
+              </div>
+              <div class="game__card">
+                <div class="game__images">
+                  <img class="background__image" src="images/b4.png"/>
+                  <img class="character" src="images/c4.png"/>
+                </div>
+                <p class="title">오딘: 발할라 라이징</p>
+                <p class="text-area">신의 영역을 차지하라</p>
+                <p class="category">MMORPG</p>
+              </div>
+            </div>
+          </div>       
+          <div class="carousel__contents">
+            <div  class="data__container">
+              <div class="game__card">
+                <div class="game__images">
+                  <img class="background__image" src="images/b5.png"/>
+                  <img class="character" src="images/c5.png"/>
+                </div>
+                <p class="title">롬: 리멤버 오브 마제스티</p>
+                <p class="text-area">세계는 하나의 전장이 된다</p>
+                <p class="category">MMORPG</p>
+              </div>
+              <div class="game__card">
+                <div class="game__images">
+                  <img class="background__image" src="images/b6.png"/>
+                  <img class="character" src="images/c6.png"/>
+                </div>
+                <p class="title">배틀그라운드</p>
+                <p class="text-area">최후까지 생존하라!</p>
+                <p class="category">배틀로얄</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="footer">
+        <button id="prev__button" type="button"><img src="images/arrow_left.svg" alt="이전버튼" /></button>
+        <span class="paging__number selected__number">1</span>
+        <span class="paging__number">/</span>
+        <span class="paging__number">3</span>
+        <button id="next__button" type="button"><img src="images/arrow_right.svg" alt="다음버튼" /></button>
+      </section>
+    </section>
+    <script src="./2.js"></script>
+  </body>
+</html>
