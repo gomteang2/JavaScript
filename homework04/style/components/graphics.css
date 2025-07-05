@@ -1,0 +1,65 @@
+.animation {
+  display: flex;
+  width: 1728px;
+  height: 1118px;
+  background: var(--white);
+}
+
+.graphics {
+  position: relative;
+  margin-top: 64px;
+  width: 846px;
+  height: 993px;
+  flex-shrink: 0;
+}
+
+.line {
+  position: absolute;
+  flex-shrink: 0;
+  border: 0.5px solid var(--gray);
+}
+
+.circle {
+  position: absolute;
+  width: 124.929px;
+  height: 124.825px;
+  flex-shrink: 0;
+}
+
+.quarter {
+  position: absolute;
+  width: 124.929px;
+  height: 124.825px;
+  flex-shrink: 0;
+}
+
+.oval {
+  position: absolute;
+  left: 566px;
+  top: 565px;
+  width: 45px;
+  height: 170px;
+  flex-shrink: 0;
+  border-radius: 62.5px;
+  border: 40px solid var(--red);
+}
+
+.half {
+  position: absolute;
+  height: 124.825px;
+  flex-shrink: 0;
+}
+
+.shape {
+  position: absolute;
+  height: 124.825px;
+  flex-shrink: 0;
+}
+
+.image {
+  width: 249.857px;
+  height: 249.65px;
+  flex-shrink: 0;
+}
+
+

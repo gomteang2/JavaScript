@@ -1,0 +1,156 @@
+.line-01{
+  width: 805px;
+  height: 0px;
+  left: 41px;
+  top: 191px;
+}
+
+.line-02{
+  width: 737.079px;
+  height: 0px;
+  left: 31.5px;
+  top: 441px;
+}
+
+.line-03{
+  width: 773.558px;
+  height: 0px;
+  left: 0;
+  top: 690px;
+}
+
+.line-left{
+  width: 0px;
+  height: 992px;
+  left: 191px;
+  top: 0.5px;
+}
+
+.line-center{
+  width: 0px;
+  height: 791.5px;
+  left: 440px;
+  top: 122px;
+}
+
+.line-right{
+  width: 0px;
+  height: 818.852px;
+  left: 691px;
+  top: 28.9px;
+}
+
+.circle-01{
+  border-radius: 62.5px;
+  background: var(--yellow);
+  left: 566px;
+  top: 191px;
+}
+
+.circle-02 {
+  border-radius: 62.5px;
+  background: var(--red);
+  left: 190px;
+  top: 316px;
+}
+
+.circle-03 {
+  fill: var(--red);
+  left: 66px;
+  top: 440px;
+}
+
+.circle-04 {
+  fill: var(--red);
+  left: 191px;
+  top: 690px;
+}
+
+.quarter-01 {
+  fill: var(--orange);
+  left: 566px;
+  top: 316px;
+}
+
+.quarter-02 {
+  width: 124.825px;
+  height: 124.929px;
+  transform: rotate(360deg);
+  left: 566px;
+  top: 440px;
+  fill: var(--brown);
+}
+
+.quarter-03 {
+  fill: var(--black);
+  left: 441px;
+  top: 191px;
+}
+
+.quarter-04 {
+  fill: var(--black);
+  left: 191px;
+  top: 440px;
+}
+
+.quarter-05 {
+  fill: var(--beige);
+  left: 191px;
+  top: 565px;
+}
+
+.half-01 {
+  width: 249.857px;
+  fill: var(--red);
+  left: 316px;
+  top: 565px;
+}
+
+.half-02 {
+  width: 62.964px;
+  fill: var(--orange);
+  left: 191px;
+  top: 815px;
+}
+
+.half-03 {
+  width: 62.964px;
+  fill: var(--yellow);
+  left: 253px;
+  top: 815px;
+}
+
+.shape-01 {
+  width: 249.857px;
+  fill: var(--stone);
+  left: 316px;
+  top: 690px;
+}
+
+.shape-02 {
+  width: 249.857px;
+  fill: var(--red);
+  left: 191px;
+  top: 191px;
+}
+
+.shape-03 {
+  width: 124.929px;
+  fill: var(--orange);
+  left: 566px;
+  top: 66px;
+}
+
+.image {
+  position: absolute;
+  left: 316px;
+  top: 316px;
+  border-top-left-radius: 130px;
+  border-bottom-left-radius: 130px;
+  border-bottom-right-radius: 130px;
+  width: 249.857px;
+  height: 249.65px;
+  flex-shrink: 0;
+  background-image: url('../../images/f238ca98037c332d839e59e4c12f16bf66496e08.png');
+  background-size: cover;
+}

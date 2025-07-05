@@ -1,0 +1,104 @@
+.contents {
+  position: relative;
+  margin: 128px 36px 289px 88px;
+  width: 670px;
+  height: 701px;
+  flex-shrink: 0;
+
+  p {
+    color: var(--black);
+    font-family: "Noto Sans KR";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 140%;
+  }
+
+  .text {
+    margin: 0;
+    column-gap: 64px;
+    width: 299px;
+    height: 100px;
+    word-break: keep-all;
+
+    &:hover {
+      color: var(--black-300);
+      width: 380px;
+      font-size: 25px;
+      font-weight: 600;
+    }
+  }
+
+  .big {
+    margin-top: 107px;
+    color: var(--red);
+    font-size: 86px;
+    font-weight: 100;
+    line-height: 120%;
+
+    &:hover {
+      color: var(--red-300);
+    }
+  }
+ 
+  .like-lion {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    color: var(--red);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+
+    &:hover {
+      color: transparent;
+      background-image: url(../../images/멋쟁이사자로고1.png);
+      background-size: cover;
+      height: 100px;
+      width: 220px;
+    } 
+  }
+
+  a {
+    display: inline-flex;
+    margin-right: 16px;
+    padding: 12px 36px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    width: 232px;
+    height: 53px;
+    text-decoration: none;
+  }
+
+  .frontend {
+    margin-top: 107px;
+    background: var(--black);
+    color: var(--white);
+    width: 170px;
+    height: 29px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+
+    &:hover {
+      color: var(--black);
+      background: var(--gray);
+    }
+  }
+
+  .curriculum {
+    color: var(--red);
+    width: 150px;
+    height: 29px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+
+    &:hover {
+      color: var(--white);
+      background: var(--red-300);
+    }
+  }
+}
